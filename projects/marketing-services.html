@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marketing Services Portal · Arif Kunnath</title>
+<meta name="description" content="Request management for the Marketing Department with multi-stage routing and SLAs.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Marketing Services Portal · Arif Kunnath">
+<meta property="og:description" content="Request management for the Marketing Department with multi-stage routing and SLAs.">
+<meta property="og:image" content="https://arifkunnath.github.io/assets/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://arifkunnath.github.io/projects/marketing-services.html">
+<meta name="theme-color" content="#F6F4EF">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231A1D21'/%3E%3Ctext x='32' y='44' font-family='Georgia' font-size='34' fill='%23F6F4EF' text-anchor='middle'%3EAK%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a><header class="top"><div class="wrap">
+<a class="brand" href="../index.html">Arif Kunnath</a>
+<nav class="nav" aria-label="Main"><a href="../index.html#work">Work</a><a class="hide-sm" href="../index.html#experience">Experience</a><a class="hide-sm" href="../index.html#skills">Skills</a><a href="../index.html#contact">Contact</a></nav>
+</div></header>
+<main class="wrap" id="main">
+<p class="crumb"><a href="../index.html#work">Work</a> / Marketing Services Portal</p>
+<div class="p-hero">
+<span class="tag internal">Internal system · no public link</span>
+<h1>Marketing Services Portal</h1>
+<p class="lede">Departments ask Marketing for designs, videos and campaigns through this portal. Each request moves through receiving, distribution to the right team, execution and a final quality gate, with every step recorded. I also wrote the business requirements document.</p>
+<dl class="meta"><div><dt>Type</dt><dd>Internal · University of Sharjah</dd></div><div><dt>Year</dt><dd>2026</dd></div><div><dt>Role</dt><dd>Business analyst &amp; developer</dd></div><div><dt>Teams</dt><dd>Design, Multimedia, Marketing</dd></div><div><dt>Auth</dt><dd>Microsoft Entra ID</dd></div><div><dt>Status</dt><dd>In production hardening</dd></div></dl>
+</div>
+<div class="p-body">
+<aside><h2>Overview</h2></aside>
+<div>
+<div class="block"><h2 class="h">What it does</h2><ul class="hl"><li><b>One rules table</b> validates every workflow transition, so the API and UI always agree on what's allowed.</li><li><b>Returns and rejections need a reason</b>, and a resubmitted request goes back to whoever returned it.</li><li><b>SLA tracking</b>, event-driven email notifications, admin screens and a full audit trail.</li><li>Dynamic request details stored as JSON so new request types don't need schema changes.</li><li>Hardened for production: no leaked exception text, a reference ID per request, an origin allow-list and self-hosted fonts.</li></ul></div>
+<div class="block"><h2 class="h">How it fits together</h2>
+<figure><div class="frame pad scroll"><svg class="dg" viewBox="0 0 780 320" role="img" xmlns="http://www.w3.org/2000/svg"><defs><marker id="ah5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="ah" d="M0,0 L10,5 L0,10 z"/></marker></defs><path class="e" d="M140,150.0 H175" marker-end="url(#ah5)"/><path class="e" d="M295,150.0 H330" marker-end="url(#ah5)"/><path class="e" d="M450,150.0 H470.0 V55.0 H490" marker-end="url(#ah5)"/><path class="e" d="M450,150.0 H490" marker-end="url(#ah5)"/><path class="e" d="M450,150.0 H470.0 V245.0 H490" marker-end="url(#ah5)"/><path class="e" d="M610,55.0 H630.0 V150.0 H650" marker-end="url(#ah5)"/><path class="e" d="M610,150.0 H650" marker-end="url(#ah5)"/><path class="e" d="M610,245.0 H630.0 V150.0 H650" marker-end="url(#ah5)"/><path class="e" d="M705.0,180 V240" marker-end="url(#ah5)"/><rect class="n alt" x="20" y="120" width="120" height="60" rx="8"/><text class="t" x="80.0" y="147.0" text-anchor="middle">Requester</text><text class="s" x="80.0" y="163.0" text-anchor="middle">submits request</text><rect class="n " x="175" y="120" width="120" height="60" rx="8"/><text class="t" x="235.0" y="147.0" text-anchor="middle">Receiver</text><text class="s" x="235.0" y="163.0" text-anchor="middle">review</text><rect class="n " x="330" y="120" width="120" height="60" rx="8"/><text class="t" x="390.0" y="147.0" text-anchor="middle">Distributor</text><text class="s" x="390.0" y="163.0" text-anchor="middle">routes &amp; assigns</text><rect class="n " x="490" y="30" width="120" height="50" rx="8"/><text class="t" x="550.0" y="60.0" text-anchor="middle">Design</text><rect class="n " x="490" y="125" width="120" height="50" rx="8"/><text class="t" x="550.0" y="155.0" text-anchor="middle">Multimedia</text><rect class="n " x="490" y="220" width="120" height="50" rx="8"/><text class="t" x="550.0" y="250.0" text-anchor="middle">Marketing</text><rect class="n " x="650" y="120" width="110" height="60" rx="8"/><text class="t" x="705.0" y="147.0" text-anchor="middle">Gate Keeper</text><text class="s" x="705.0" y="163.0" text-anchor="middle">final approval</text><rect class="n alt" x="650" y="240" width="110" height="50" rx="8"/><text class="t" x="705.0" y="270.0" text-anchor="middle">Completed</text><text class="s" x="235" y="220" text-anchor="middle">Every return or rejection needs a reason;</text><text class="s" x="235" y="236" text-anchor="middle">a resubmitted request goes back to the stage</text><text class="s" x="235" y="252" text-anchor="middle">that returned it. SLA timers on each stage.</text></svg></div><figcaption>Request workflow from submission to completion.</figcaption></figure></div>
+
+<div class="block"><h2 class="h">Built with</h2><div style="display:flex;flex-wrap:wrap;gap:8px"><span class="tag">Angular 21</span><span class="tag">.NET 10</span><span class="tag">EF Core</span><span class="tag">SQL Server</span><span class="tag">Entra ID</span></div>
+<p class="note">This system is internal to the University of Sharjah, so there's no public link. Details are kept to a general overview.</p></div>
+</div></div>
+<nav class="next"><a href="awards-portal.html"><span>← Previous</span>Excellence Awards Portal</a><a href="media-coverage.html" style="text-align:right"><span>Next →</span>Media Coverage Portal</a></nav>
+</main>
+<footer class="site"><div class="wrap"><span>© 2026 Arif Kunnath</span><span><a href="../pixeltoons/">PixelToons</a> · <a href="../privacy.html">Privacy Policy</a> · <a href="../terms.html">Terms</a></span></div></footer>
+</body>
+</html>
