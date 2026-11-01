@@ -183,3 +183,5 @@ html{scroll-padding-top:76px}
 .gallery figure{margin:0}
 .gallery img{width:100%;height:auto;aspect-ratio:16/9}
 @media (max-width:700px){.gallery{grid-template-columns:1fr}}
+
+.skills{row-gap:40px}
