@@ -175,3 +175,11 @@ html{scroll-padding-top:76px}
 .xp .hl{gap:8px}
 .xp .hl li{font-size:15.5px}
 .xp.edu h3{font-size:18px}
+
+/* v3: game feature + gallery */
+.feature.game .art{background:#CFEBD9;padding:28px}
+.feature.game .art img{width:100%;height:auto;border-radius:12px;box-shadow:0 0 0 1px #00000022,0 12px 30px -12px #0000004d;aspect-ratio:16/9}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.gallery figure{margin:0}
+.gallery img{width:100%;height:auto;aspect-ratio:16/9}
+@media (max-width:700px){.gallery{grid-template-columns:1fr}}
